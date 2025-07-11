@@ -1,0 +1,185 @@
+.section-title {
+    margin-bottom: 30px;
+}
+
+.backgrnd {
+    background-color: #626F47;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.hero-image {
+    position: relative;
+    background-image: url('../Assets/header-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+    /* Tambahan untuk hindari tertimpa navbar */
+}
+
+.hero-image .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    /* efek gelap transparan */
+    z-index: 0;
+}
+
+.hero-image .container {
+    z-index: 1;
+}
+
+/* font */
+.navbar-brand {
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+}
+
+.nav-link {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 30;
+}
+
+.heading-custom {
+    font-family: "Merienda";
+    font-size: 50px;
+}
+
+.lead {
+    font-family: "Roboto Slab";
+}
+
+.tombol {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+.tombol:hover {
+    background-color: #626F47;
+    border: 2px solid #626F47;
+    color: white;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+.isi {
+    font-family: "roboto slab";
+}
+
+.judul {
+    font-size: 40px;
+}
+
+.deskripsi {
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* test */
+
+.scroll-left,
+.scroll-right {
+    opacity: 0;
+    transform: translateX(0);
+    /* default */
+    transition: all 0.6s ease-out;
+}
+
+.scroll-left {
+    transform: translateX(-100px);
+    /* mulai dari kiri */
+}
+
+.scroll-right {
+    transform: translateX(100px);
+    /* mulai dari kanan */
+}
+
+.scroll-show {
+    opacity: 1 !important;
+    transform: translateX(0) !important;
+}
+
+.scroll-left {
+    transition-delay: 0.1s;
+}
+
+.scroll-right {
+    transition-delay: 0.3s;
+}
+
+.map {
+    width: 400px;
+    border-radius: 40px;
+}
+
+.sejarah {
+    width: 300px;
+    border-radius: 40px;
+}
+
+table td {
+    padding-top: 10px;
+    padding-inline-end: 5px;
+}
+
+.gambar {
+    width: 400px;
+    height: 400px;
+}
+
+.lgo {
+    border-radius: 50%;
+}
+
+.pengurus {
+    border-radius: 10px;
+    margin: 5px;
+    box-shadow: 1.5px 1.5px 5px rgba(0, 0, 0, 0.3);
+
+
+}
+
+.thumbnail-img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+
+.thumbnail-img.active {
+    border-color: #0d6efd;
+}
+
+.carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.infrastruktur{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
